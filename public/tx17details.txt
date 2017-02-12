@@ -1,0 +1,70 @@
+<div class="container">
+                <h1>TECHNOLOGIX '17</h1>
+                <p>EVENTS
+The events which will be hosted under the banner of Technologix’17
+are:</p>
+                <div class="row">   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-list-alt"></span>CODE - RUNNERS
+</h1>
+                        <p>
+An online coding extravaganza - A test to prove coders for what
+they're worth. This event will hosted on an online platform.
+</p>
+                        <p><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-user"></span>MANIFESTO
+</h1>
+                        <p>A business plan management competition to bring out the entrepreneurial
+skills of a person.</p>
+                        <p style="padding-top: 22px"><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-pencil"></span>KAYAKA</h1>
+                        <p>A mock placement procedure for students to emulate their placement procedure.</p>
+                        <p style="padding-top: 19px"><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                </div>
+
+                <div class="row">   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-music"></span>TORPEDO</h1>
+                        <p>
+A gaming competition - gamers’ clash on , with the exciting all-timers.
+</p>
+                        <p style="padding-top: 50px"><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-list-alt"></span>ALGORITHM</h1>
+                        <p>An offline c - coding competition to test the skills and speed of the young programmers.</p>
+                        <p style="padding-top: 26px"><a class="btn btn-default">View details &raquo;</a></p>
+                    </div>   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-user"></span>TECH - TALKS</h1>
+                        <p>
+A wide range of bleeding edge topics on technology, dealt by the
+best resource persons from all over the nation.
+</p>
+                        <p><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-th-list"></span>HOLD YOUR MOTIVE</h1>
+                        <p>A management skill testing game designed to much the will power of the person to the edge.</p>
+                        <p style="padding-top: 75px"><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-pencil"></span>
+WORKSHOPS</h1>
+                        <p>
+A wide array of technical topics such as Android App Development,
+Python covered in many workshops, by trained professionals.
+Various other events are also in the making which will be hosted as
+pre or post events of Technologix’17.</p>
+                        <p><a class="btn btn-default vcenter">View details &raquo;</a></p>
+                    </div>
+                </div>
+            </div>

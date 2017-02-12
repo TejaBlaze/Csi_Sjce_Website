@@ -3,25 +3,99 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="SJCE, MYSORE,Engineering college, Technologix, FESTS">
         <meta name="author" content="">
-        <title>CSI SJCE</title>
+        <title>CSI SJCE Student Chapter, SJCE MYSORE</title>
         <style type="text/css">
          ul,p{
              margin: 0;
          }
+         p{
+             font-size: 20px !important;
+         }
+         #CSISJCE{
+ font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+ font-weight: normal;
+        font-size: 2.75em;
+ letter-spacing: .2em;
+ line-height: 1.1em;
+ margin:0px;
+ text-align: center;
+ text-transform: uppercase;
+ color: white;
+         }
+         #navtoggle {
+    margin-bottom: 0 !important;
+} 
+       #hero1 {
+    margin-top: 0 !important;
+}
+.vcenter{
+    display: inline-block;
+    vertical-align: bottom;    
+}
          </style>
-        <link rel="stylesheet" href="./css/bootstrap.css">
+		<!-- Bootstrap -->
+		<script src="js/modernizr.custom.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.css" rel="stylesheet">
+		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <style type="text/css">
+@media screen and (min-width: 768px){
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+        background-color: black;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+li{
+color: white !important;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".dropdown, .btn-group").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+</script>
     </head>
-    <body class="homepage" style="margin:0;">
+    <body class="homepage" >
         <header id="header">
             <!--<div class="top-bar">
                 <div class="row">
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
                 </div>
             </div>-->
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container-fluid">
+        <nav style="margin-bottom: 0px !important" class="navbar navbar-inverse" role="banner" >
+            <div id="navtoggle" class="container">
+                <div class="row">
+                    <a class="navbar-brand" href="#"><img src="./logo-white.png" alt="logo"></a>
+                    <h1 id="CSISJCE" style="text-align: center">CSI SJCE STUDENT CHAPTER</h1>
+                </div>
+                <div class="row">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -29,91 +103,200 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="./logo-white.png" alt="logo"></a>
                 </div>
 				
-                <div class="collapse navbar-collapse ">
+                <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">HOME</a></li>
 						 <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT  <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-							     <li><a href="#">Link1</a></li>
-                                <li><a href="#">Link2</a></li>
-				                <li><a href="#">Link3</a></li>
-                                <li><a href="#">Link4</a></li>    
+                            <ul class="dropdown-menu text-center" >
+							     <li><a href="#Aboutsjce">SJCE, MYSORE</a></li>
+                                <li><a href="#">CSI SJCE</a></li>
+				                <li><a href="#">Technologix’17</a></li>
+                                <li><a href="#">Technologix’16- A Look Back</a></li>    
                             </ul>
                         </li>
 						 <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">EVENTS<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                             <li><a href="#">Link1</a></li>
-				                <li><a href="#">Link2</a></li>
-          
-                               
+                             <li><a href="#">CODE-RUNNERS</a></li>
+				                <li><a href="#">MANIFESTO</a></li>
+				                <li><a href="#">KAYAKA</a></li>
+				                <li><a href="#">TORPEDO</a></li>
+				                <li><a href="#">ALGORITHMS</a></li>
+				                <li><a href="#">TECH-TALKS</a></li>
+				                <li><a href="#">HOLD YOUR MOTIVE</a></li>
+				                <li><a href="#">WORKSHOP</a></li>
                             </ul>
                         </li>
+                        <li><a href="#">GALLERY</a></li>
                         <li><a href="#">FESTS</a></li>
                         <li><a href="#">CONTACT</a></li>                        
                     </ul>
                 </div>
+                </div>
             </div><!--/.container-->
         </nav><!--/nav-->
-		
+            
+        <div style="margin-top: 0px !important" class="no-margin">
+		<section class="hero">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row nav-wrapper">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
+						</div>
+						
+					</div>
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<center>
+                            <div class="animated fadeInUp" style="color:white; text-shadow: 3px 3px 3px black">
+                                <h2>CSI SJCE STUDENT CHAPTER</h2>
+                                <h2>TECHNOLOGIX ‘17</h2>
+                                <h2>27th February - 5th March</h2>
+                                <h2>STUDENT CHAPTER</h2>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</section>
     </header>
-            <section id="main-slider" class="no-margin">
-             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-             </ol>
-            <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="./a.jpg" />
-                        <div class="carousel-caption"><h1>Image 1</h1></div>
-                    </div>
-                    <div class="item">
-                        <img src="./b.jpg"  alt="...">
-                        <div class="carousel-caption"><h1>Image 2</h1></div>
-                    </div>
-                    <div class="item">
-                        <img src="./c.jpg" alt="...">
-                        <div class="carousel-caption"><h1>Image 3</h1></div>
-                    </div>
-                </div>
-            </div>
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-                </div>
-            </section>
+            
             <br><br>
             <div class="container">
+                <h1 id="Aboutsjce"><img src="./logo1.jpg" width="150" height="100">ABOUT SJCE</h1>
                 <div class="row">   
-                    <div class="col-sm-6 col-md-4">
-                        <h1><span class="glyphicon glyphicon-music"></span>Event 1</h1>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                        <p><a class="btn btn-default">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <h1><span class="glyphicon glyphicon-film"></span>Event 2</h1>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                        <p><a class="btn btn-default">View details &raquo;</a></p>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <h1><span class="glyphicon glyphicon-pencil"></span>Event 3</h1>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                        <p><a class="btn btn-default">View details &raquo;</a></p>
+                    <div class="col-sm-12 col-md-12">
+                    <p>Sri Jayachamarajendra College Of Engineering, conceived in 1963, is
+the dream child of Jagadguru Dr. Sri Shivarathri Rajendra
+Mahaswamigalavaru, the 23rd pontiff of Sri Suttur Mutt. It comes under
+the aegis of JSS Mahavidyapeetha, which is the primary institution of
+many such institutions. The college was officially inauguarated by the esteemed
+founder of Manipal Institutes, Dr. T.M.A.Pai, the then chairman of
+the academy of education, Manipal, Mysore State.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>ABOUT CSI SJCE</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                    <p>The Computer Society of India, SJCE Student Chapter has been instrumental
+in promoting expertise in the field of Information Technology. In this
+endeavour, it has devoted itself to the intellectual needs of enterprising
+students of the country, through various activities</p>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1>TECHNOLOGIX '16 - A LOOK BACK</h1>
+                <div class="row">   
+                    <div class="col-sm-12 col-md-12">
+           <p>Technologix' 16, a one of a kind technical fest was organized by CSI and
+the SJCE chapter, held from 20th to 22nd February 2016...<a class="btn btn-default vcenter">View details &raquo;</a>
+                     </p>
                     </div>
                 </div>
-                <p>&copy; All rights limited</p>
+            </div>     
+            <div class="container">
+                <h1>TECHNOLOGIX '17</h1>
+                <p>EVENTS
+The events which will be hosted under the banner of Technologix’17
+are:</p>
+                <div class="row">   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-list-alt"></span>CODE - RUNNERS
+</h1>
+    
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-user"></span>MANIFESTO
+</h1>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-pencil"></span>KAYAKA</h1>
+                    </div>
+                </div>
+
+                <div class="row">   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-music"></span>TORPEDO</h1>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-list-alt"></span>ALGORITHM</h1>
+                    </div>   
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-user"></span>TECH - TALKS</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-th-list"></span>HOLD YOUR MOTIVE</h1>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <h1><span class="glyphicon glyphicon-pencil"></span>
+WORKSHOPS</h1>
+                    </div>
+                </div>
             </div>
+            <br><br><br>
+            <footer id="footer" style="background-color: black">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-sm-6 col-xs-4">
+                            <div class="top-number"><p><i class="fa fa-phone-square"></i>  Contact number</p></div>
+                        </div>
+                        <div class="col-sm-6 col-xs-8">
+                            <div class="social">
+                                <ul class="social-share">
+                                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook fa-lg"></i></a></li>
+                                    <li><a href="https://twitter.com"><i class="fa fa-twitter fa-lg"></i></a></li>
+                                    <li><a href="https://in.linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a></li> 
+                                    <li><a href="https://plus.google.com"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                                    <li><a href="https://www.youtube.com"><i class="fa fa-youtube fa-lg"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <p style="font-size: 30px !important">CONTACT DETAILS</p>
+                    <div class="row">
+                        <p>Dr T.N. Nagabhusan ,<br>Principal <br>SJCE, Mysore.</p>
+                    </div>
+                    <div class="row">
+                        <p>Dr S K Padma ,<br>Head Of the Department Information Science and Engineering<br> SJCE,Mysore.<br> skpadma@gmail.com
+                        </p>   
+                   </div>
+                    <div class="row">
+                        <p>Dr B S Harish,<br>
+                        Student Branch Councellor<br>
+                        CSI SJCE Student Chapter <br>SJCE, Mysore.<br>
+                        Phone no. 9448335403<br>
+                        bsmahanand@gmail.com</p>
+                    </div>
+                    <div class="row">
+                        <p>
+                        Mr. Rajan Kumar,<br>
+                        Chairman,<br>
+                        CSI SJCE Student Chapter <br>SJCE, Mysore.<br>
+                        Phone no. 8147788171<br>
+                        rajanhelo@gmail.com
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>Ms. Lavanya Srinivas<br>
+                        Vice Chairman,<br>
+                        CSI SJCE Student Chapter <br>SJCE, Mysore.<br>
+                        Phone no. 9632723854<br>
+                        madhu.lavanya@gmail.com</p>
+                    </div>
+                    <br><br>
+                    <p>&copy; All rights limited</p>
+                </div>
+            </footer>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script src="./js/bootstrap.min.js"></script>
     </body>
